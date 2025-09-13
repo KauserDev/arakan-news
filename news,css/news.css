@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px) {
+    .container{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+}
+
+@media screen and (min-width: 576px) {
+         .majlum .jalem{
+            flex-direction: column;
+            padding: 15px;
+         }
+
+         
+        
+
+         
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    gap: 90px;
+    
+}
+
+.majlum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.jalem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.majlum-img , .jalem-img{
+         flex: 1;
+}
+
+.majlum-img img , .jalem-img img{
+      width: 500px;
+}
+
+.majlum-titel , .jalem-titel{
+      flex: 2;
+}
